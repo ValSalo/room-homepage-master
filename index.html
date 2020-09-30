@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark transparent">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.svg">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active active-custom" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">Shop</a>
+        <a class="nav-item nav-link active" href="#">About</a>
+        <a class="nav-item nav-link active" href="#">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="top-box slider">
+    <div class="slide slide1">
+      <div class="top-image-box">
+        <img class="slide-image" src="images/desktop-image-hero-1.jpg" alt="image-hero1">
+        <div class="buttons">
+          <button class="btn prev" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+          <button class="btn next" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+        </div>
+      </div>
+      <div class="top-text-box">
+        <h1>Discover innovative ways to decorate</h1>
+        <p>We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form andnfunction in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.</p>
+          <div class="shop-now-box">
+            <a class="shop-now" href="#">Shop now </a>
+            <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="hsl(0, 0%, 63%)" fill-rule="nonzero"/></svg>
+          </div>
+
+
+      </div>
+    </div>
+
+    <div class="slide slide2">
+      <div class="top-image-box">
+        <img class="slide-image" src="images/desktop-image-hero-2.jpg" alt="image-hero2">
+        <div class="buttons">
+          <button class="btn prev" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+          <button class="btn next" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+        </div>
+      </div>
+      <div class="top-text-box">
+        <h1>We are available all across the globe</h1>
+        <p>With stores all over the world, it's easy for you to find furniture for your home or place of business.
+          Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+          store locator. Any questions? Don't hesitate to contact us today.</p>
+          <div class="shop-now-box">
+            <a class="shop-now" href="#">Shop now </a>
+            <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="hsl(0, 0%, 63%)" fill-rule="nonzero"/></svg>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="slide slide3">
+      <div class="top-image-box">
+        <img class="slide-image" src="images/desktop-image-hero-3.jpg" alt="image-hero3">
+        <div class="buttons">
+          <button class="btn prev" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+          <button class="btn next" type="button" name="button"><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></button>
+        </div>
+      </div>
+      <div class="top-text-box">
+        <h1>Manufactured with the best materials</h1>
+        <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
+          to ensure that every product is made as perfect and as consistent as possible. With three decades of
+          experience in this industry, we understand what customers want for their home and office.</p>
+          <div class="shop-now-box">
+            <a class="shop-now" href="#">Shop now </a>
+            <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="hsl(0, 0%, 63%)" fill-rule="nonzero"/></svg>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-box">
+    <div class="btm-left-box">
+      <img class="image-btm image-dark" src="images/image-about-dark.jpg" alt="about1">
+    </div>
+    <div class="btm-middle-box">
+      <h6 class="about-futniture">About our furniture</h6>
+      <p>Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.</p>
+    </div>
+    <div class="btm-right-box">
+      <img class="image-btm image-light" src="images/image-about-light.jpg" alt="about2">
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

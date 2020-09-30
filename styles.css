@@ -1,0 +1,193 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+  color: hsl(0, 0%, 63%);
+  line-height: 1.8;
+}
+
+h1{
+  color: hsl(0, 0%, 0%);
+}
+
+a{
+  color: hsl(0, 0%, 63%);
+}
+
+a:hover{
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+svg:hover{
+  fill: hsl(0, 0%, 0%);
+}
+
+.about-futniture{
+  font-size: 12px;
+  color: hsl(0, 0%, 0%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+
+.shop-now-box{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.shop-now{
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.navbar.transparent{
+  background: transparent;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  text-transform: lowercase;
+  z-index: 1;
+}
+
+.active-custom{
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+
+.slide{
+  display: flex!important;
+}
+
+
+.top-image-box{
+  position: relative;
+  width: 58%;
+}
+
+.slide-image{
+  width: 100%;
+}
+
+.top-text-box{
+  padding: 7% 4% 0 4%;
+  width: 42%;
+}
+
+.buttons{
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: -163px;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 0;
+}
+
+.btn:hover{
+  background-color: hsl(0, 0%, 27%);
+}
+
+.bottom-box{
+  display: flex;
+}
+
+.btm-middle-box{
+  padding: 3% 2%;
+}
+
+@media only screen and (max-width: 1230px){
+  .buttons{
+    right: 0;
+  }
+
+  .btm-middle-box{
+    width: 33%;
+  }
+
+  .btm-left-box{
+    width: 33%;
+  }
+
+  .btm-right-box{
+    width: 33%;
+  }
+
+  .image-btm{
+    width: 100%;
+  }
+
+  .slide-image{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .buttons{
+    right: 0;
+  }
+
+  .slide{
+    flex-direction: column;
+  }
+
+  .top-image-box{
+    width: 100%;
+  }
+
+  .top-text-box{
+    width: 100%;
+  }
+
+  .bottom-box{
+    flex-direction: column;
+  }
+
+  .image-dark{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-light{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .btm-middle-box{
+    padding: 15% 7%;
+    width: 100%;
+  }
+
+  .btm-left-box{
+    width: 100%;
+  }
+
+  .btm-right-box{
+    width: 100%;
+  }
+
+  .top-text-box{
+    padding: 15% 7%;
+  }
+
+  .slide-image{
+    height: 350px;
+    object-fit: cover;
+  }
+}
