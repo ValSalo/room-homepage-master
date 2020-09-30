@@ -190,4 +190,13 @@ svg:hover{
     height: 350px;
     object-fit: cover;
   }
+
+  .navbar.transparent{
+    background: transparent;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-transform: lowercase;
+    z-index: 1;
+  }
 }
